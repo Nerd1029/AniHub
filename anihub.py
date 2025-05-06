@@ -175,69 +175,59 @@ marine_mammals = [
 ]
 
 while True:
-    type = input("What type of animal would you like to see? (ie. rodents) (You can also type 'credits' to see where the animals are sourced from.)")
+    type = input("What type of animal would you like to see? (ie. rodents) (You can also type 'credits' to see where the animals are sourced from.) ")
 
     if type == "rodent" or type == "rodents":
         print(rodents)
-        print("Press enter to continue.")
-        input("")
+        input("Press enter to continue.")
         os.system('clear')
 
     elif type == "arachnid" or type == "arachnids":
         print(arachnids)
-        print("Press enter to continue.")
-        input("")
+        input("Press enter to continue.")
         os.system('clear')
 
     elif type == "mammal" or type == "mammals":
         print(mammals)
-        print("Press enter to continue.")
-        input("")
+        input("Press enter to continue.")
         os.system('clear')
 
     elif type == "bird" or type == "birds":
         print(birds)
-        print("Press enter to continue.")
-        input("")
+        input("Press enter to continue.")
         os.system('clear')
     
     elif type == "reptile" or type == "reptiles":
         print(reptiles)
-        print("Press enter to continue.")
-        input("")
+        input("Press enter to continue.")
         os.system('clear')
     
     elif type == "amphibian" or type == "amphibians":
         print(amphibians)
-        print("Press enter to continue.")
-        input("")
+        input("Press enter to continue.")
         os.system('clear')
     
     elif type == "fish":
         print(fish)
-        print("Press enter to continue.")
-        input("")
+        input("Press enter to continue.")
         os.system('clear')
     
     elif type == "insect" or type == "insects":
         print(insects)
-        print("Press enter to continue.")
-        input("")
+        input("Press enter to continue.")
         os.system('clear')
     
     elif type == "invertebrate" or type == "invertebrates":
         print(invertebrates)
-        print("Press enter to continue.")
-        input("")
+        input("Press enter to continue.")
         os.system('clear')
     
     elif type == "marine mammal" or type == "marine mammals":
         print(marine_mammals)
-        print("Press enter to continue.")
-        input("")
+        input("Press enter to continue.")
         os.system('clear')
     
     elif type == "credits":
+        print("Sole developer, CEO, CTO, and Founder: Nerd1029")
         print("Thanks to OpenAI's ChatGPT for providing the animals and their data!")
-        print("Press enter to continue.")
-        input("")
+        input("Press enter to continue.")
